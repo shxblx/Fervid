@@ -1,13 +1,18 @@
-
 .navbar-brand {
-    color: #ffffff; /* Set the text color to a shade of blue (you can change this value) */
-    background-color: #001a82; /* Set the background color to a shade of orange (you can change this value) */
-    font-size: 24px; /* Set the font size to 24 pixels (you can change this value) */
-    text-decoration: none; /* Remove underline from the link */
-    font-weight: bold; /* Make the text bold */
-    padding: 10px 20px; /* Add padding for better visual appearance */
+    color: #ffffff;
+    /* Set the text color to a shade of blue (you can change this value) */
+    background-color: #001a82;
+    /* Set the background color to a shade of orange (you can change this value) */
+    font-size: 24px;
+    /* Set the font size to 24 pixels (you can change this value) */
+    text-decoration: none;
+    /* Remove underline from the link */
+    font-weight: bold;
+    /* Make the text bold */
+    padding: 10px 20px;
+    /* Add padding for better visual appearance */
     /* Add more styles as needed */
-  }
+}
 
 .banner-container {
     position: relative;
@@ -20,4 +25,12 @@
     width: 100%;
     height: auto;
     display: block;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
